@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(239, 238, 238);
     height: 100vh;
 }
 
@@ -21,10 +21,15 @@ body {
     display: flex;
 }
 
+h2.title {
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+}
 
 /* estilo do header */
 header {
-    padding: 40px 4%;
+    padding: 10px 4%;
 }
 
 header > .interface {
@@ -55,24 +60,54 @@ header nav ul li {
 }
 
 .lacteameufi {
-    width: 90px;
+    width: 70px;
+    border-radius: 50%;
 }
 
 /* estilo do top do site */
 section.site-top .icons-sm img {
-    height: 28px;
-    width: 28px;
+    height: 24px;
+    width: 24px;
     margin-left: 5px;
     margin-top: 16px;
 }
 
-section.site-top .icons-sm img:hover {
-    color: #15acb7 !important;
-    transform: scale(1.05);
+.fa-whatsapp {
+    color: black;
+}
+
+i {
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.fa-whatsapp:hover {
+    color: #15acb7; 
+    transform: scale(1.1);
+}
+
+.fa-linkedin {
+    color: black;
+}
+
+.fa-linkedin:hover {
+    color: #15acb7; 
+    transform: scale(1.1);
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-github:hover {
+    color: #15acb7; 
+    transform: scale(1.1);
 }
 
 section.site-top {
     padding: 40px 4%;
+    margin-bottom: 100px;
 }
 
 section.site-top .container {
@@ -95,4 +130,34 @@ section.site-top .container {
     border-radius: 50%;
     margin-left: 62.5px;
     margin-bottom: 10px
+}
+
+/* style habilidades */
+section.habilidades {
+    padding: 40px 4%;
+}
+
+section.habilidades .container {
+    display: flex;
+    justify-content: center;
+    gap: 60px
+}
+
+section.habilidades .habilidades-box h3 {
+    margin-top: -25px;
+    color: rgb(44, 44, 44);
+}
+
+.habilidades .habilidades-box {
+    padding: 40px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 28px;
+    transition: .2s;
+}
+
+.habilidades .habilidades-box:hover {
+    transform: scale(1.05);
+    color: #15acb7;
+    box-shadow: 0 0 14px #15acb7;
 }
