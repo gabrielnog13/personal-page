@@ -17,6 +17,11 @@ body {
     margin: 0 auto;
 }
 
+.container {
+    display: flex;
+}
+
+
 /* estilo do header */
 header {
     padding: 40px 4%;
@@ -51,4 +56,31 @@ header nav ul li {
 
 .lacteameufi {
     width: 90px;
+}
+
+/* estilo do top do site */
+section.site-top {
+    padding: 40px 4%;
+}
+
+section.site-top .container {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.site-top .txt-top h1 {
+    font-size: 32px;
+}
+
+.site-top .txt-top p {
+    text-align: justify;
+}
+
+.site-top .img-top img {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin-left: 62.5px;
+    margin-bottom: 10px
 }
