@@ -59,6 +59,18 @@ header nav ul li {
 }
 
 /* estilo do top do site */
+section.site-top .icons-sm img {
+    height: 28px;
+    width: 28px;
+    margin-left: 5px;
+    margin-top: 16px;
+}
+
+section.site-top .icons-sm img:hover {
+    color: #15acb7 !important;
+    transform: scale(1.05);
+}
+
 section.site-top {
     padding: 40px 4%;
 }
