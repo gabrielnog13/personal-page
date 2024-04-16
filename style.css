@@ -60,8 +60,9 @@ header nav ul li {
 }
 
 .lacteameufi {
-    width: 70px;
+    width: 80px;
     border-radius: 50%;
+    margin-top: 5px;
 }
 
 /* estilo do top do site */
@@ -150,7 +151,7 @@ section.habilidades .habilidades-box h3 {
 
 .habilidades .habilidades-box {
     padding: 40px;
-    border: 1px solid;
+    border: 1px solid rgb(157, 156, 156);
     border-radius: 20px;
     margin-top: 28px;
     transition: .2s;
