@@ -162,3 +162,39 @@ section.habilidades .habilidades-box h3 {
     color: #15acb7;
     box-shadow: 0 0 14px #15acb7;
 }
+
+/* style do sobre */
+section.sobre {
+    padding: 40px 4%;
+}
+/* 
+.sobre .container h1 {
+    font-size: 32px;
+    align-items: center;
+} */
+
+.sobre .txt-sobre {
+    text-align: justify;
+    padding: 40px;
+}
+
+.sobre .txt-sobre h2 {
+    margin-bottom: 32px;
+    margin-left: 498px;
+}
+
+.sobre .txt-sobre .btn-cur button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #15acb7;
+    margin-top: 32px;
+    margin-left: 524px;
+}
+
+.sobre .txt-sobre .btn-cur button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 22px #15acb7;
+    cursor: pointer;
+    transition: .2s;
+}
