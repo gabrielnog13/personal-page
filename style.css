@@ -147,6 +147,12 @@ section.habilidades .container {
 section.habilidades .habilidades-box h3 {
     margin-top: -25px;
     color: rgb(44, 44, 44);
+    text-align: center;
+}
+
+section.habilidades .habilidades-box p {
+    text-align: center;
+    margin-top: 10px;
 }
 
 .habilidades .habilidades-box {
